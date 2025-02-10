@@ -3,7 +3,7 @@
 TokScope provides tools for token analysis, including vocabulary mapping, language classification, and dimensionality reduction. This repo helps you explore token embeddings—the foundation of large language models (LLMs). Paired with an interactive website, it offers a clear and intuitive way to understand tokenization and embeddings.
 
 ### User Guide
-This interactive dashboard visualizes token embeddings (numerical representations of words/subwords) from a pre-trained model using t-SNE dimensionality reduction. Each point in the scatter plot represents a word or subword from the model's vocabulary, with spatial relationships reflecting semantic similarity:
+[TokScope](https://tokscope.site), an interactive dashboard visualizing token embeddings (numerical representations of words/subwords) from a pre-trained model using t-SNE dimensionality reduction. Each point in the scatter plot represents a word or subword from the model's vocabulary, with spatial relationships reflecting semantic similarity:
 
 - Explore Token Relationships: Words with similar meanings (e.g., "cat" and "dog") tend to cluster together, while unrelated words are more dispersed.
 - Identify Semantic Clusters: Words of the same category (e.g., sentiment words, technical terms) often form groups, revealing how the model understands language.
